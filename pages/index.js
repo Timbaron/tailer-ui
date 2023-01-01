@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
 import { Navbar } from "../components/navbar";
 import { CallToAction } from "../components/calltoaction";
+import { Footer } from "../components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +18,9 @@ export default function Home() {
       <Navbar />
 
       <CallToAction />
+
+      <Footer />
+      
     </>
   );
 }
